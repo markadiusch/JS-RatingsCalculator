@@ -18,10 +18,13 @@ const collect_ratings = () => {
         ratings.average = ratings.sum/ratings.count;
     };
     return ratings;
-}
+};
 
 document.addEventListener('change', () => {
     ratings = collect_ratings();
+    element = document.querySelector(".average");
+    element.value = ratings.average.toFixed(2);
+
 }); 
 
 
