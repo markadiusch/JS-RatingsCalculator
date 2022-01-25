@@ -1,8 +1,8 @@
 const elements = document.querySelectorAll('.rating');
 
 elements.forEach(element => {
-    //element.id.replace('star', );
-    console.log(parseInt(element.id));
+    element.id.replace('star', );
+    parseInt(element.id)
 });
 
 function collect_ratings(){
