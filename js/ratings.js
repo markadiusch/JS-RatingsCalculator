@@ -1,3 +1,5 @@
+const elements = document.querySelectorAll('.rating');
+
 const collect_ratings = () => {
     let ratings = {
         count: 0,
@@ -18,7 +20,8 @@ const collect_ratings = () => {
     return ratings;
 }
 
-const elements = document.querySelectorAll('.rating');
+document.addEventListener('change', () => {
 
+}); 
 
 
