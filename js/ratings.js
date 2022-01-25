@@ -6,6 +6,11 @@ elements.forEach(element => {
     ratings.sum += parseInt(element.value) * rating;
 });
 
+if (ratings.count !== 0)
+{
+
+};
+
 function collect_ratings(){
     let ratings = {
         count: 0,
