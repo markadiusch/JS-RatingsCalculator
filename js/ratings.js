@@ -21,7 +21,7 @@ const collect_ratings = () => {
 }
 
 document.addEventListener('change', () => {
-
+    ratings = collect_ratings();
 }); 
 
 
